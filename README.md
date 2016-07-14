@@ -18,11 +18,6 @@ But as time goes on,
 the compatibility of it is getting better and better.
 in the end, it evolved into a `Virtual Container`.
 
-Join our group
---------------
-
-QQ Group: **553070909**
-
 
 Get started
 -----------
@@ -87,6 +82,16 @@ so you must use our `android.jar` replace the old one **(Android-SDK/platforms/a
 5. For **Install a virtual App**, use this function:
 ```java
     VirtualCore.getCore().installApp({APK PATH}, flags);
+    
+    //flags values
+    
+    public interface InstallStrategy {
+	    int TERMINATE_IF_EXIST = 10;
+	    int UPDATE_IF_EXIST = 11;
+	    int COMPARE_VERSION = 12;
+	    int IGNORE_NEW_VERSION = 13;
+    }
+    
 ```
 
 6. For **Launch a virtual App**, use this function:
@@ -108,6 +113,10 @@ Documentation
 -------------
 
 VirtualApp currently has **no documentation**, If you are interested in VirtualApp,please send email to me.
+
+License
+-------
+LGPL 3.0
 
 About Author
 ------------

@@ -96,10 +96,16 @@ QQ Group: **553070909**
     VirtualCore.getCore().findApp({PackageName});
 ```
 
+**注意：** 编译和运行项目请关闭你的Instant run.
+
 文档
 -------------
 
 VirtualApp 目前暂时**没有文档**，Please read the fucking source code。
+
+License
+-------
+LGPL 3.0
 
 关于Author
 ------------
